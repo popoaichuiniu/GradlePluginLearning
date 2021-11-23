@@ -1,0 +1,292 @@
+
+------------------------------------------------------------
+Tasks runnable from root project 'TestGradle'
+------------------------------------------------------------
+
+Android tasks
+-------------
+app:androidDependencies - Displays the Android dependencies of the project.
+app:signingReport - Displays the signing info for the base and test modules
+app:sourceSets - Prints out all the source sets defined in this project.
+
+Build tasks
+-----------
+app:assemble - Assemble main outputs for all the variants.
+app:assembleAndroidTest - Assembles all the Test applications.
+app:build - Assembles and tests this project.
+app:buildDependents - Assembles and tests this project and all projects that depend on it.
+app:buildNeeded - Assembles and tests this project and all projects it depends on.
+app:bundle - Assemble bundles for all the variants.
+app:clean - Deletes the build directory.
+app:cleanBuildCache - Deletes the build cache directory.
+app:compileDebugAndroidTestSources
+app:compileDebugSources
+app:compileDebugUnitTestSources
+app:compileReleaseSources
+app:compileReleaseUnitTestSources
+
+Build Setup tasks
+-----------------
+init - Initializes a new Gradle build.
+wrapper - Generates Gradle wrapper files.
+
+Cleanup tasks
+-------------
+app:lintFix - Runs lint on all variants and applies any safe suggestions to the source code.
+
+Help tasks
+----------
+buildEnvironment - Displays all buildscript dependencies declared in root project 'TestGradle'.
+app:buildEnvironment - Displays all buildscript dependencies declared in project ':app'.
+dependencies - Displays all dependencies declared in root project 'TestGradle'.
+app:dependencies - Displays all dependencies declared in project ':app'.
+dependencyInsight - Displays the insight into a specific dependency in root project 'TestGradle'.
+app:dependencyInsight - Displays the insight into a specific dependency in project ':app'.
+help - Displays a help message.
+app:help - Displays a help message.
+javaToolchains - Displays the detected java toolchains.
+app:javaToolchains - Displays the detected java toolchains.
+outgoingVariants - Displays the outgoing variants of root project 'TestGradle'.
+app:outgoingVariants - Displays the outgoing variants of project ':app'.
+projects - Displays the sub-projects of root project 'TestGradle'.
+app:projects - Displays the sub-projects of project ':app'.
+properties - Displays the properties of root project 'TestGradle'.
+app:properties - Displays the properties of project ':app'.
+tasks - Displays the tasks runnable from root project 'TestGradle' (some of the displayed tasks may belong to subprojects).
+app:tasks - Displays the tasks runnable from project ':app'.
+
+Install tasks
+-------------
+app:installDebug - Installs the Debug build.
+app:installDebugAndroidTest - Installs the android (on device) tests for the Debug build.
+app:uninstallAll - Uninstall all applications.
+app:uninstallDebug - Uninstalls the Debug build.
+app:uninstallDebugAndroidTest - Uninstalls the android (on device) tests for the Debug build.
+app:uninstallRelease - Uninstalls the Release build.
+
+Verification tasks
+------------------
+app:check - Runs all checks.
+app:connectedAndroidTest - Installs and runs instrumentation tests for all flavors on connected devices.
+app:connectedCheck - Runs all device checks on currently connected devices.
+app:connectedDebugAndroidTest - Installs and runs the tests for debug on connected devices.
+app:deviceAndroidTest - Installs and runs instrumentation tests using all Device Providers.
+app:deviceCheck - Runs all device checks using Device Providers and Test Servers.
+app:lint - Runs lint on all variants.
+app:lintDebug - Runs lint on the Debug build.
+app:lintRelease - Runs lint on the Release build.
+app:lintVitalRelease - Runs lint on just the fatal issues in the release build.
+app:test - Run unit tests for all variants.
+app:testDebugUnitTest - Run unit tests for the debug build.
+app:testReleaseUnitTest - Run unit tests for the release build.
+
+Other tasks
+-----------
+app:analyticsRecordingRelease
+app:analyzeDebugAndroidTestDependencies
+app:analyzeDebugDependencies
+app:analyzeDebugUnitTestDependencies
+app:analyzeReleaseDependencies
+app:analyzeReleaseUnitTestDependencies
+app:assembleDebug - Assembles main output for variant debug
+app:assembleDebugAndroidTest - Assembles main output for variant debugAndroidTest
+app:assembleDebugUnitTest - Assembles main output for variant debugUnitTest
+app:assembleRelease - Assembles main output for variant release
+app:assembleReleaseUnitTest - Assembles main output for variant releaseUnitTest
+app:buildDebugPreBundle
+app:buildReleasePreBundle
+app:bundleDebug - Assembles bundle for variant debug
+app:bundleDebugAndroidTestClasses
+app:bundleDebugClasses
+app:bundleDebugResources
+app:bundleDebugUnitTestClasses
+app:bundleRelease - Assembles bundle for variant release
+app:bundleReleaseClasses
+app:bundleReleaseResources
+app:bundleReleaseUnitTestClasses
+app:checkDebugAarMetadata
+app:checkDebugAndroidTestAarMetadata
+app:checkDebugAndroidTestDuplicateClasses
+app:checkDebugDuplicateClasses
+app:checkDebugManifest
+app:checkReleaseAarMetadata
+app:checkReleaseDuplicateClasses
+app:checkReleaseManifest
+clean
+app:collectReleaseDependencies
+app:compileDebugAidl
+app:compileDebugAndroidTestAidl
+app:compileDebugAndroidTestJavaWithJavac
+app:compileDebugAndroidTestRenderscript
+app:compileDebugAndroidTestShaders
+app:compileDebugJavaWithJavac
+app:compileDebugRenderscript
+app:compileDebugShaders
+app:compileDebugUnitTestJavaWithJavac
+app:compileLint
+app:compileLintChecks
+app:compileReleaseAidl
+app:compileReleaseJavaWithJavac
+app:compileReleaseRenderscript
+app:compileReleaseShaders
+app:compileReleaseUnitTestJavaWithJavac
+components - Displays the components produced by root project 'TestGradle'. [deprecated]
+app:components - Displays the components produced by project ':app'. [deprecated]
+app:compressDebugAndroidTestAssets
+app:compressDebugAssets
+app:compressReleaseAssets
+app:configureReleaseDependencies
+app:consumeConfigAttr
+app:createDebugCompatibleScreenManifests
+app:createMockableJar
+app:createReleaseCompatibleScreenManifests
+dependentComponents - Displays the dependent components of components in root project 'TestGradle'. [deprecated]
+app:dependentComponents - Displays the dependent components of components in project ':app'. [deprecated]
+app:desugarDebugAndroidTestFileDependencies
+app:desugarDebugFileDependencies
+app:desugarReleaseFileDependencies
+app:dexBuilderDebug
+app:dexBuilderDebugAndroidTest
+app:dexBuilderRelease
+app:extractApksForDebug
+app:extractApksForRelease
+app:extractDebugNativeDebugMetadata
+app:extractDebugNativeSymbolTables
+app:extractDeepLinksDebug
+app:extractDeepLinksRelease
+app:extractProguardFiles
+app:extractReleaseNativeDebugMetadata
+app:extractReleaseNativeSymbolTables
+app:generateDebugAndroidTestAssets
+app:generateDebugAndroidTestBuildConfig
+app:generateDebugAndroidTestResources
+app:generateDebugAndroidTestResValues
+app:generateDebugAndroidTestSources
+app:generateDebugAssets
+app:generateDebugBuildConfig
+app:generateDebugDependenciesForLint
+app:generateDebugFeatureMetadata
+app:generateDebugFeatureTransitiveDeps
+app:generateDebugManifestClass
+app:generateDebugResources
+app:generateDebugResValues
+app:generateDebugSources
+app:generateDebugUnitTestAssets
+app:generateDebugUnitTestResources
+app:generateDebugUnitTestSources
+app:generateLintModuleInfo
+app:generateReleaseAssets
+app:generateReleaseBuildConfig
+app:generateReleaseDependenciesForLint
+app:generateReleaseFeatureMetadata
+app:generateReleaseFeatureTransitiveDeps
+app:generateReleaseManifestClass
+app:generateReleaseResources
+app:generateReleaseResValues
+app:generateReleaseSources
+app:generateReleaseUnitTestAssets
+app:generateReleaseUnitTestResources
+app:generateReleaseUnitTestSources
+app:javaPreCompileDebug
+app:javaPreCompileDebugAndroidTest
+app:javaPreCompileDebugUnitTest
+app:javaPreCompileRelease
+app:javaPreCompileReleaseUnitTest
+app:makeApkFromBundleForDebug
+app:makeApkFromBundleForRelease
+app:mergeDebugAndroidTestAssets
+app:mergeDebugAndroidTestGeneratedProguardFiles
+app:mergeDebugAndroidTestJavaResource
+app:mergeDebugAndroidTestJniLibFolders
+app:mergeDebugAndroidTestNativeLibs
+app:mergeDebugAndroidTestResources
+app:mergeDebugAndroidTestShaders
+app:mergeDebugAssets
+app:mergeDebugGeneratedProguardFiles
+app:mergeDebugJavaResource
+app:mergeDebugJniLibFolders
+app:mergeDebugNativeDebugMetadata
+app:mergeDebugNativeLibs
+app:mergeDebugResources
+app:mergeDebugShaders
+app:mergeDexRelease
+app:mergeExtDexDebug
+app:mergeExtDexDebugAndroidTest
+app:mergeExtDexRelease
+app:mergeLibDexDebug
+app:mergeLibDexDebugAndroidTest
+app:mergeProjectDexDebug
+app:mergeProjectDexDebugAndroidTest
+app:mergeReleaseAssets
+app:mergeReleaseGeneratedProguardFiles
+app:mergeReleaseJavaResource
+app:mergeReleaseJniLibFolders
+app:mergeReleaseNativeDebugMetadata
+app:mergeReleaseNativeLibs
+app:mergeReleaseResources
+app:mergeReleaseShaders
+model - Displays the configuration model of root project 'TestGradle'. [deprecated]
+app:model - Displays the configuration model of project ':app'. [deprecated]
+app:optimizeReleaseResources
+app:packageDebug
+app:packageDebugAndroidTest
+app:packageDebugBundle
+app:packageDebugUniversalApk
+app:packageRelease
+app:packageReleaseBundle
+app:packageReleaseUniversalApk
+app:parseDebugIntegrityConfig
+app:parseReleaseIntegrityConfig
+app:preBuild
+app:preDebugAndroidTestBuild
+app:preDebugBuild
+app:preDebugUnitTestBuild
+prepareKotlinBuildScriptModel
+app:prepareLintJarForPublish
+app:preReleaseBuild
+app:preReleaseUnitTestBuild
+app:processApplicationManifestDebugForBundle
+app:processApplicationManifestReleaseForBundle
+app:processDebugAndroidTestJavaRes
+app:processDebugAndroidTestManifest
+app:processDebugAndroidTestResources
+app:processDebugJavaRes
+app:processDebugMainManifest
+app:processDebugManifest
+app:processDebugManifestForInstantApp
+app:processDebugManifestForPackage
+app:processDebugResources
+app:processDebugUnitTestJavaRes
+app:processManifestDebugForFeature
+app:processManifestReleaseForFeature
+app:processReleaseJavaRes
+app:processReleaseMainManifest
+app:processReleaseManifest
+app:processReleaseManifestForInstantApp
+app:processReleaseManifestForPackage
+app:processReleaseResources
+app:processReleaseUnitTestJavaRes
+app:produceDebugBundleIdeListingFile
+app:produceReleaseBundleIdeListingFile
+app:resolveConfigAttr
+app:sdkReleaseDependencyData
+app:signDebugBundle
+app:signingConfigWriterDebug
+app:signingConfigWriterDebugAndroidTest
+app:signingConfigWriterRelease
+app:signReleaseBundle
+app:stripDebugDebugSymbols
+app:stripReleaseDebugSymbols
+app:validateSigningDebug
+app:validateSigningDebugAndroidTest
+app:writeDebugAndroidTestSigningConfigVersions
+app:writeDebugApplicationId
+app:writeDebugAppMetadata
+app:writeDebugModuleMetadata
+app:writeDebugSigningConfigVersions
+app:writeReleaseApplicationId
+app:writeReleaseAppMetadata
+app:writeReleaseModuleMetadata
+app:writeReleaseSigningConfigVersions
+app:zipApksForDebug
+app:zipApksForRelease

@@ -1,0 +1,30 @@
+//use java library
+apply plugin: 'java'
+//apply plugin: 'kotlin'
+//use groovy library
+//apply plugin: 'groovy'
+sourceSets {
+    main {
+//      groovy{
+//            srcDir 'src/main/groovy'
+//        }
+        java {
+            srcDir 'src/main/java'
+        }
+        resources {
+            srcDir 'src/main/resources'
+        }
+    }
+}
+
+repositories {
+    google()
+    mavenCentral()
+}
+
+dependencies {
+    //implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation gradleApi()
+    implementation "com.android.tools.build:gradle:3.6.4"
+}
+
