@@ -36,7 +36,8 @@ uploadArchives {
         mavenDeployer {
             pom.artifactId = "myfirst"
             pom.version = "0.0.1"
-            repository(url: uri('../repository'))
+//            repository(url: uri('../repository'))
+            repository(url: uri('/Users/jacyzhou/.m2/repository'))
         }
     }
 }

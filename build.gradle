@@ -4,9 +4,10 @@ buildscript {
     repositories {
         google()
         mavenCentral()
-        maven {
-            url "/Users/jacyzhou/AndroidStudioProjects/TestGradle/repository"
-        }
+//        maven {
+//            url "/Users/jacyzhou/AndroidStudioProjects/TestGradle/repository"
+//        }
+        mavenLocal()
     }
 
 
