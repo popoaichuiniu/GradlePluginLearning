@@ -1,0 +1,42 @@
+plugins {
+    id 'java-library'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+repositories {
+    google()
+    mavenCentral()
+}
+
+dependencies {
+    implementation gradleApi()
+    implementation "com.android.tools.build:gradle:3.6.4"
+}
+
+apply plugin: "maven"
+
+uploadArchives {
+//    repositories {
+//        mavenDeployer {
+//            pom.artifactId = '项目信息'
+//            pom.version = '版本信息'
+//            repository(url: '私服仓库地址') {
+//                authentication(userName: '账号', password: '密码')
+//            }
+//            snapshotRepository(url: '私服快照地址') {
+//                authentication(userName: '账号', password: '密码')
+//            }
+//        }
+//    }
+    repositories {
+        mavenDeployer {
+            pom.artifactId = "myfirst"
+            pom.version = "0.0.1"
+            repository(url: uri('../repository'))
+        }
+    }
+}

@@ -1,3 +1,4 @@
 
 rootProject.name = "TestGradle"
 include ':app'
+include ':PluginModule'

@@ -26,6 +26,7 @@ import org.objectweb.asm.Label;
 import org.objectweb.asm.MethodVisitor;
 import org.objectweb.asm.ModuleVisitor;
 import org.objectweb.asm.TypePath;
+import org.objectweb.asm.tree.ClassNode;
 
 import java.io.File;
 import java.io.IOException;
@@ -105,9 +106,16 @@ public class MyTransform extends Transform {
                 continue;
             }
             ClassReader classReader = new ClassReader(FileUtils.readFile(classFile));
+
             ClassWriter classWriter = new ClassWriter(COMPUTE_FRAMES);
             ClassVisitor adapterVisitor = new AdapterClassVisitor(classWriter);
-            classReader.accept(adapterVisitor, 0);
+
+            //classReader.accept(adapterVisitor, 0);
+
+            ClassNode classNode = new ClassNode();
+            classReader.accept(classNode,0);
+            classNode.accept(adapterVisitor);
+
             FileUtils.writeFile(classWriter.toByteArray(), classFile.getAbsolutePath());
             System.out.println("zms");
         }
@@ -385,4 +393,8 @@ public class MyTransform extends Transform {
             methodVisitor.visitEnd();
         }
     }
+//
+//    public static class RemoveMethodTransformer extends ClassTransformer {
+//
+//    }
 }
